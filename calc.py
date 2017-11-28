@@ -23,7 +23,7 @@ def add(a, b):
 # a -- minuend
 # b -- subtrahend
 def sub(a, b):
-    return a + b
+    return a - b
 
 # Multiply function
 # a -- multiplicand
@@ -51,6 +51,7 @@ op = None
 
 while (True):
     # get input values
+    print "Welcome to PyCalc!"
     a = raw_input("Enter the first argument: ")
     op = raw_input("Enter the operation: ")
     b = raw_input("Enter the second argument: ")
